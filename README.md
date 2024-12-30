@@ -1,14 +1,14 @@
-# python github actions project
+# Python GitHub Actions Project
 
-This is a simple pyhton project for github actions
+This is a simple Python project for GitHub Actions
 
 ## Features
 
-- add two number
-- include untitesting
+- Add two numbers
+- Include unit testing
 
 ## Usage
 
-1. clone repo
-2. install dependences
-3. run test
+1. Clone repo
+2. Install dependencies
+3. Run tests

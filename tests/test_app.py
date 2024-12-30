@@ -1,12 +1,12 @@
 import unittest
-from src.app import add 
+from src.app import add
 
 class TestApp(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(add.add(1, 2), 3) 
-        self.assertEqual(add.add(1, -2), -1)
-        self.assertEqual(add.add(-1, -2), -3)
-        self.assertEqual(add.add(0, 0), 0)
+        self.assertEqual(add(1, 2), 3) 
+        self.assertEqual(add(1, -2), -1)
+        self.assertEqual(add(-1, -2), -3)
+        self.assertEqual(add(0, 0), 0)
 
 if __name__ == '__main__':
-    unittest.main() 
+    unittest.main()
