@@ -48,6 +48,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
     
     - name: Build image
-      run: docker build . -t ${{ secrets.DOCKER_USERNAME }}/python-app-ci:latest
+      run: docker build . -t ${{ secrets.DOCKER_USERNAME }}/python-app-github-actions:latest
     - name: Push image
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/python-app-ci:latest
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/python-app-github-actions:latest
